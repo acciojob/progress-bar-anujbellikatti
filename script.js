@@ -1,5 +1,5 @@
 //your JS code here. If required.
-let btnnxt = document.getElementById("btnnxt");
+let next = document.getElementById("next");
 let prev = document.getElementById("prev");
 
 let c1 = document.getElementById("circle-1");
@@ -13,7 +13,7 @@ function hell() {
 	prev.disabled = false;
 }
 	if(i==5){
-	btnnxt.disabled = true;
+	next.disabled = true;
 	}
 }
 function hell0000() {
@@ -22,7 +22,7 @@ function hell0000() {
 	
 	}
 	i--;
-	btnnxt.disabled = false;
+	next.disabled = false;
 	
 	div.children[i].classList.remove("active");
 	
